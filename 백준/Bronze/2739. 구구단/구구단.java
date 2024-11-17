@@ -2,13 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int Num = sc.nextInt();
-        
-        for (int i = 1; i <= 9; i++) {
-            System.out.println(Num + " * " + i + " = " + (Num * i));
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+
+        for (int i=1; i<10; i++) {
+            System.out.println(N + " * " + i + " = " + N*i);
         }
-        
-        sc.close();
     }
 }
